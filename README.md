@@ -1,6 +1,6 @@
 # Brain Tumor Segmentation using YOLO11
 
-This project implements an automated system for detecting and segmenting brain tumors from MRI scans using the **YOLO11 (Ultralytics)** architecture. By leveraging instance segmentation, the model not only identifies the presence of a tumor but also delineates its exact boundaries, providing critical spatial information for medical analysis.
+This project implements a system for detecting and segmenting brain tumors from MRI scans using the **YOLO11**. By leveraging instance segmentation, the model not only identifies the presence of a tumor but also delineates its exact boundaries, providing critical spatial information for medical analysis.
 
 ## 🚀 Project Overview
 
@@ -8,7 +8,7 @@ Early and accurate detection of brain tumors is vital for treatment planning. Th
 
 * **Model Architecture:** YOLO11n-seg (Nano Segmentation)
 * **Task:** Instance Segmentation (Classifying and masking tumor regions)
-* **Framework:** Ultralytics / PyTorch
+* **Framework:** Ultralytics
 
 ---
 
@@ -66,7 +66,7 @@ cd brain-tumor-segmentation
 
 2. Install dependencies:
 ```bash
-pip install ultralytics torch
+pip install ultralytics
 
 ```
 
